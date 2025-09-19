@@ -13,4 +13,4 @@ function bravin(obj, fonctions) {
     // console.log('chargement...')
     return infoComs;
 }
-module.exports = { zokou, Module: zokou, cm };
+module.exports = { bravin, Module: bravin, cm };
