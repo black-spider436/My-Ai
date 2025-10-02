@@ -19,7 +19,7 @@ module.exports = {
   CHATBOT: getConfig("CHATBOT") || "on", // Chatbot toggle
   BOT_NAME: getConfig("BOT_NAME") || process.env.BOT_NAME || "Vision V", // Bot's display name
   MODE: getConfig("MODE") || process.env.MODE || "private", // Bot mode: public/private/group/inbox
-  REPO: process.env.REPO || "https://github.com/betingrich4/Mercedes", // Bot's GitHub repo
+  REPO: process.env.REPO || "https://github.com/black-spider436/My-Ai", // Bot's GitHub repo
   PAIRING_CODE: process.env.PARING_CODE || 'true', // true or false for terminal pairing
   BAILEYS: process.env.BAILEYS || "@whiskeysockets/baileys", // WhatsApp library
 
