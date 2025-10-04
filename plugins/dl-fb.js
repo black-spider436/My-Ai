@@ -34,7 +34,7 @@ cmd({
 
     await conn.sendMessage(from, {
       video: { url: downloadLink },
-      caption: `> *Made By Marisel*`
+      caption: `> *Made By sir bravin*`
     }, { quoted: mek });
 
     await conn.sendMessage(from, { react: { text: '✅', key: m.key } });
@@ -77,7 +77,7 @@ cmd({
 
     await conn.sendMessage(from, {
       video: { url: downloadLink },
-      caption: `> *Made By Marisel*`
+      caption: `> *Made By sir bravin*`
     }, { quoted: mek });
 
     await conn.sendMessage(from, { react: { text: '✅', key: m.key } });
@@ -121,7 +121,7 @@ cmd({
 
     await conn.sendMessage(from, {
       video: { url: downloadLink },
-      caption: `> *Made By Marisel*`
+      caption: `> *Made By sir bravin*`
     }, { quoted: mek });
 
     await conn.sendMessage(from, { react: { text: '✅', key: m.key } });
