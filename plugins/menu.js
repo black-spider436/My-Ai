@@ -1,4 +1,4 @@
-(function (_0x99afa0, _0x1ef254) {
+  (function (_0x99afa0, _0x1ef254) {
   const _0x1cbfff = _0x99afa0();
   while (true) {
     try {
@@ -162,19 +162,19 @@ cmd(_0x1db2db, async (_0x41aeb8, _0x5b152b, _0x4af00a, {
     const _0x12ab1b = Object.keys(commands).length;
     const _0x5da65f = "*╭┈───────────────•*\n*〈 Holla " + _0x597dc8 + " Welcome*   \n*╰┈───────────────•*\n*╭┈───────────────•*\n*│  ◦* *Runtime : " + runtime(process.uptime()) + "*\n*│  ◦* *RAM Usage : " + (process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2) + "MB / " + Math.round(require('os').totalmem / 1024 / 1024) + "MB*\n*│  ◦* *Mode : [" + config.MODE + "]*\n*│  ◦* *Prefix : [" + config.PREFIX + "]*\n*│  ◦* *Commands : " + _0x12ab1b + "*\n*╰┈───────────────•*\n*◆─〈 ✦" + config.BOT_NAME + "✦ 〉─◆*\n*╭┈───────────────•*\n*├ 1* •  *OWNER*\n*├ 2* • *DOWNLOAD*\n*├ 3* • *GROUPS*\n*├ 4* • *INFO*\n*├ 5* • *RANDOM*\n*├ 6* • *CONVERT*\n*├ 7* • *AI*\n*├ 8* • *WALLPAPERS*\n*├ 9* • *OTHER*\n*├ 10* • *MAIN*\n*╰┈───────────────•*\n\n*Reply With Number You want*\n\n> *" + config.BOT_NAME + '*';
     const _0x24b7bb = {
-      url: "https://files.catbox.moe/wrmids.jpg"
+      url: "https://files.catbox.moe/5irjng.jpg"
     };
     const _0x112b23 = {
       newsletterJid: "120363299029326322@newsletter",
-      newsletterName: "Sir bravin",
+      newsletterName: "𝖒𝖆𝖗𝖎𝖘𝖊𝖑",
       serverMessageId: 0x8f
     };
     const _0x502067 = {
-      title: "sir bravin",
-      body: "sir bravin",
+      title: "𝖒𝖆𝖗𝖎𝖘𝖊𝖑",
+      body: "𝖒𝖆𝖗𝖎𝖘𝖊𝖑",
       mediaType: 0x1,
-      sourceUrl: "https://whatsapp.com/channel/0029VbB4nox4Y9lqVl2X8n3m",
-      thumbnailUrl: "https://files.catbox.moe/wrmids.jpg",
+      sourceUrl: "https://whatsapp.com/channel/0029Vajvy2kEwEjwAKP4SI0x",
+      thumbnailUrl: "https://files.catbox.moe/71xorb.jpg",
       renderLargerThumbnail: true,
       showAdAttribution: true
     };
@@ -252,7 +252,7 @@ cmd(_0x1db2db, async (_0x41aeb8, _0x5b152b, _0x4af00a, {
             const _0x43fb62 = _0xb3d8b2[_0x29e1ea];
             try {
               const _0x51159c = {
-                url: "https://files.catbox.moe/wrmids.jpg"
+                url: "https://files.catbox.moe/avqa3c.jpg"
               };
               const _0x4f29fb = {
                 mentionedJid: [_0xad2509],
