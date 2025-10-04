@@ -17,7 +17,7 @@ module.exports = {
   SESSION_ID: settings.SESSION_ID || process.env.SESSION_ID || "", // Bot's session ID (keep secure)
   PREFIX: getConfig("PREFIX") || settings.PREFIX || ".", // Command prefix (e.g., ".", "/", "!")
   CHATBOT: getConfig("CHATBOT") || "on", // Chatbot toggle
-  BOT_NAME: getConfig("BOT_NAME") || process.env.BOT_NAME || "Vision V", // Bot's display name
+  BOT_NAME: getConfig("BOT_NAME") || process.env.BOT_NAME || "WhatsApp bot", // Bot's display name
   MODE: getConfig("MODE") || process.env.MODE || "private", // Bot mode: public/private/group/inbox
   REPO: process.env.REPO || "https://github.com/black-spider436/My-Ai", // Bot's GitHub repo
   PAIRING_CODE: process.env.PARING_CODE || 'true', // true or false for terminal pairing
@@ -26,8 +26,8 @@ module.exports = {
   // ===== OWNER & DEVELOPER SETTINGS =====
   OWNER_NUMBER: settings.OWNER_NUMBER || process.env.OWNER_NUMBER || "254740007567", // Owner's WhatsApp number
   OWNER_NAME: getConfig("OWNER_NAME") || process.env.OWNER_NAME || "Marisel", // Owner's name
-  DEV: process.env.DEV || "254740007567", // Developer's contact
-  DEVELOPER_NUMBER: '254740007567@s.whatsapp.net', // Developer's WhatsApp ID
+  DEV: process.env.DEV || "254717263689", // Developer's contact
+  DEVELOPER_NUMBER: '254717263689@s.whatsapp.net', // Developer's WhatsApp ID
   
   
   MENU_AUDIO_URL: getConfig("MENU_AUDIO_URL") || process.env.MENU_AUDIO_URL || 'https://files.catbox.moe/vkvci3.mp3', // Menu audio
@@ -43,7 +43,7 @@ module.exports = {
   AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*Just seen ur status 😆 🤖*", // Status reply message
   READ_MESSAGE: getConfig("READ_MESSAGE") || process.env.READ_MESSAGE || "false", // Mark messages as read
   REJECT_MSG: process.env.REJECT_MSG || "*📵 Calls are not allowed on this number unless you have permission. 🚫*", // Call rejection message
-  ALIVE_IMG: getConfig("ALIVE_IMG") || process.env.ALIVE_IMG || "https://url.bwmxmd.online/Adams.xm472dqv.jpeg", // Alive image
+  ALIVE_IMG: getConfig("ALIVE_IMG") || process.env.ALIVE_IMG || "https://files.catbox.moe/pfj6ju.jpg", // Alive image
   LIVE_MSG: process.env.LIVE_MSG || "> ʙᴏᴛ ɪs sᴘᴀʀᴋɪɴɢ ᴀᴄᴛɪᴠᴇ ᴀɴᴅ ᴀʟɪᴠᴇ\n\n\n> ɢɪᴛʜᴜʙ :* github.com/betingrich4/Mercedes", // Alive message
 
   // ===== REACTION & STICKER SETTINGS =====
@@ -58,7 +58,7 @@ module.exports = {
   AUTO_RECORDING: getConfig("AUTO_RECORDING") || process.env.AUTO_RECORDING || "true", // Auto-record voice notes
   AUTO_TYPING: getConfig("AUTO_TYPING") || process.env.AUTO_TYPING || "true", // Show typing indicator
   MENTION_REPLY: getConfig("MENTION_REPLY") || process.env.MENTION_REPLY || "true", // Reply to mentions
-  MENU_IMAGE_URL: getConfig("MENU_IMAGE_URL") || process.env.MENU_IMAGE_URL || "https://url.bwmxmd.online/Adams.xm472dqv.jpeg", // Menu image
+  MENU_IMAGE_URL: getConfig("MENU_IMAGE_URL") || process.env.MENU_IMAGE_URL || "https://files.catbox.moe/wrmids.jpg", // Menu image
 
   // ===== SECURITY & ANTI-FEATURES =====
   ANTI_DELETE: getConfig("ANTI_DELETE") || process.env.ANTI_DELETE || "true", // Prevent message deletion
@@ -72,7 +72,7 @@ module.exports = {
   PM_BLOCKER: getConfig("PM_BLOCKER") || process.env.PM_BLOCKER || "true", // Block private messages
 
   // ===== BOT BEHAVIOR & APPEARANCE =====
-  DESCRIPTION: process.env.DESCRIPTION || "*ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*", // Bot footer
+  DESCRIPTION: process.env.DESCRIPTION || "*ᴍᴀᴅᴇ ʙʏ sir bravin*", // Bot footer
   PUBLIC_MODE: getConfig("PUBLIC_MODE") || process.env.PUBLIC_MODE || "true", // Allow public commands
   ALWAYS_ONLINE: getConfig("ALWAYS_ONLINE") || process.env.ALWAYS_ONLINE || "false", // Show bot as always online
   AUTO_STATUS_REACT: getConfig("AUTO_STATUS_REACT") || process.env.AUTO_STATUS_REACT || "true", // React to status updates
@@ -87,8 +87,8 @@ module.exports = {
 
   // ===== CATEGORY-SPECIFIC IMAGE URLs =====
   MENU_IMAGES: {
-    '1': process.env.DOWNLOAD_MENU_IMAGE || "https://url.bwmxmd.online/Adams.0dhfcjpi.jpeg", // Download Menu
-    '2': process.env.GROUP_MENU_IMAGE || "https://url.bwmxmd.online/Adams.xm472dqv.jpeg",   // Group Menu
+    '1': process.env.DOWNLOAD_MENU_IMAGE || "https://files.catbox.moe/wrmids.jpg", // Download Menu
+    '2': process.env.GROUP_MENU_IMAGE || "https://files.catbox.moe/pfj6ju.jpg",   // Group Menu
     '3': process.env.FUN_MENU_IMAGE || "https://url.bwmxmd.online/Adams.0dhfcjpi.jpeg",  // Fun Menu
     '4': process.env.OWNER_MENU_IMAGE || "https://url.bwmxmd.online/Adams.0dhfcjpi.jpeg",   // Owner Menu
     '5': process.env.AI_MENU_IMAGE || "https://url.bwmxmd.online/Adams.zjrmnw18.jpeg",         // AI Menu
