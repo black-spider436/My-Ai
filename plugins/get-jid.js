@@ -12,7 +12,7 @@ cmd({
 }) => {
     try {
         if (!isCreator) {
-            return reply("❌ *Command Restricted* - Only my creator can use this.");
+            return reply("❌ *Command Restricted* - Only my creator sir bravin to use this.");
         }
 
         if (isGroup) {
