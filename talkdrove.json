@@ -1,8 +1,8 @@
 
 {
-"bot-name": "Mercedes",
-  "description": "Made By Marisel",
-  "logo": "https://url.bwmxmd.online/Adams.0dhfcjpi.jpeg",
+"bot-name": "sir bravin",
+  "description": "Made By sir bravin",
+  "logo": "https://files.catbox.moe/wrmids.jpg",
   "keywords": ["bot"],
   "documentation-link": "https://session-v35f.onrender.com/",
     "owner-verification":"marisel56@gmail.com",
@@ -18,7 +18,7 @@
     "OWNER_NUMBER": {
       "description": "Enter owner number",
       "required": true,
-      "value": "2547400075677"
+      "value": "254717263689"
       
        },
       "TIMEZONE": {
